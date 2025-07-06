@@ -41,6 +41,7 @@ const one =  ()=>{
 
             <button onClick={handlerSendData}>Send</button>
             <p>{selector.length ? selector[0].name + selector[0].address+selector[0].subject + selector[0].position+selector[0].age:"no"}</p>
+            <p>Hello</p>
         </div>
     )
 }
